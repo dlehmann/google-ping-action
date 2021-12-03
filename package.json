@@ -1,0 +1,25 @@
+{
+  "name": "google-ping-action",
+  "version": "1.0.0",
+  "description": "Ping Goolge when website content is updated'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlehmann/google-ping-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlehmann/google-ping-action/issues"
+  },
+  "homepage": "https://github.com/dlehmann/google-ping-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "got": "^11.8.3",
+    "valid-url": "^1.0.9"
+  }
+}

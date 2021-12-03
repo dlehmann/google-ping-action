@@ -1,0 +1,10 @@
+name: 'dlehmann/google-ping-action'
+description: 'Ping Goolge when website content is updated'
+inputs:
+  sitemap-url:
+    description: 'Sitemap URL'
+    required: true
+    default: ''
+runs:
+  using: 'node16'
+  main: 'index.js'
